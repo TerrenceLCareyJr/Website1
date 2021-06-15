@@ -4,7 +4,7 @@ body {
 }
 
 p {
-  color: lightskyblue;
+  color: white;
   text-align: center;
 }
 
@@ -44,21 +44,24 @@ p {
 }
 
 .flip-card-back {
-  background-color: blue;
-  color: whitesmoke;
+  background-color: lightskyblue;
+  color: black;
   transform: rotateY(180deg);
 }
 
-
+#p-back {
+  color: black;
+}
+  
 h3 {
-  color: blue;
+  color: lightskyblue;
   font-family: cursive;
   font-size: 15px;
   text-align: center;
 }
 
 h4 {
-  color: lightskyblue;
+  color: white;
   font-family: cursive;
   font-size: 15px;
   text-align: center;
@@ -72,16 +75,16 @@ h4 {
   align-items: center;
   justify-content: center;
   margin-bottom: 40px;
-  color: blue;
+  color: white;
 }
 
 a {
-  color: lightskyblue;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+  color: lightskyblue;
   text-decoration: none;
 }
 
