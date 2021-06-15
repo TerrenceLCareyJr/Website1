@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+  position: relative;
+}
+
+p {
+  color: lightskyblue;
+  text-align: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  perspective: 1000px;
+  margin: auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: blue;
+  color: whitesmoke;
+  transform: rotateY(180deg);
+}
+
+
+h3 {
+  color: blue;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+h4 {
+  color: lightskyblue;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+#contact-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: blue;
+}
+
+a {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.footer-p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightskyblue;
+  color: #000000;
+  text-align: center;
+  font-family: cursive;
+}
+
+
+/* Clock */
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
