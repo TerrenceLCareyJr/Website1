@@ -116,9 +116,9 @@ a:hover {
 
 @media all and (max-width: 500px) {
   h4 {
-    font-size: 28px;
+    font-size: 23px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
